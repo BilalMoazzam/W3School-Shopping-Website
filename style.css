@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  body{
+    background-color:#cccccc;
+  }
+  
+  /* .my-btn{
+    display:block;
+    max-width:720px;
+  
+  }
+  .my-side-bar{
+    display:block;
+    max-width:720px;
+  } */
+  
+  .first-bar{
+    background-color:black;
+    color:white;  
+  }
+  .setting-of-sidebar{
+    margin-top:60px;
+    margin-left:40px;
+    font-size:16px;
+  }
+  .setting-of-h1-in-side-bar{
+    font-size:20px;
+    margin-top:30px;
+    margin-left:65px;
+    color:black;
+    background-color:white;
+  }
+  .setting-of-h1-in-nav-bar{
+    font-size:20px;
+    color:white;
+    background-color:black;
+    margin-top:20px;
+    margin-left:20px;
+  }
+  .icon-btn{
+    border:0;
+    background-color: black;
+    color:white;
+    padding:8px;
+    margin-top:8px;
+    margin-right:8px;
+    font-size:24px;
+  }
+  
+  
+  
+  /* Side Bar Part Area */
+  .side-nav-bar{
+
+    position:fixed;
+    overflow-y:scroll;
+    z-index: 10;
+    height: 100vh;
+    background-color:white; 
+  }
+
+
+
+
+  .anch-tag{
+    font-weight:500;
+    color:#575757;
+    background-color:white;
+    text-decoration:none;
+    cursor:pointer;
+    margin-top:16px;
+    margin-left:24px;
+    /* padding-top:14px; */
+  }
+  .anch-tag-2{
+    display:block;
+    margin-top:10px;
+    color:black;
+    background-color:white;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  .anch-tag:hover{
+    font-weight:500;
+    color:black;
+    background-color:grey;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  .anch-tag-2:hover{
+    color:black;
+    background-color:grey;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  
+  /* Body Upper Part Area */
+  
+  .jeans-nav-bar{
+    font-size:24px;
+    padding-top:18px;
+    padding-left:24px;
+  }
+  .body-part-upper-area{
+    position:relative;
+  }
+  .data-on-img{
+    position:absolute;
+    top:60px;
+    left:40px;
+    color:white;
+  }
+  .body-part-middle-area{
+    width:100%;
+    filter: grayscale(75%);
+  }
+  
+  /* Body Bottom Part Area */
+  .body-part-bottom-area{
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    padding:48px 18px;
+  }
+  #img-btn{
+    color:white;
+    background-color:black;
+    padding:12px 15px;
+    border:0;
+  }
+  #img-btn:hover{
+    color:black;
+    background-color:#ebe6e6;
+    padding:12px 15px;
+    border:0;
+  }
+  .img-btn-last{
+    color:#ffffff;
+  }
+  .img-btn-last:hover{
+    color:#8f8f8f;
+  }
+  
+  
+  @media(min-width:768px) {
+    .nav-bar-top-area{
+        display:none;
+    }
+  }
+  @media(max-width:768px) {
+    .side-nav-bar{
+        display:none;
+    }
+  }
+  
+  @media(max-width:768px) {
+    .ri-close-fill{
+        background-color: white;
+        border:0;
+        display:block;
+    }
+  }
+  
